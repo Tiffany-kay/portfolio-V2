@@ -34,8 +34,8 @@ const projects = [
 		description: 'This very portfolio, built with React and Framer Motion.',
 		tech: ['React', 'Framer Motion', 'TailwindCSS'],
 		confession: 'Built this to procrastinate on real work.',
-		github: '#',
-		demo: '#',
+		github: 'https://github.com/Tiffany-kay/portfolio-V2.git',
+		demo: 'https://portfolio-v2-kzqx.vercel.app/',
 		status: 'Live',
 	},
 	{
