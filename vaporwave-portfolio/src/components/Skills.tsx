@@ -5,7 +5,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 const skills = [
 	{ name: 'React', tip: 'Reactive like your ex but way more stable.', level: 'Expert' },
 	{ name: 'TypeScript', tip: 'Structure + Sass.', level: 'Advanced' },
-	{ name: 'TailwindCSS', tip: "I don't write CSS, I breathe it.", level: 'Expert' },
+	{ name: 'TailwindCSS', tip: "I don&apos;t write CSS, I breathe it.", level: 'Expert' },
 	{ name: 'Next.js', tip: 'The React framework that makes sense.', level: 'Advanced' },
 	{ name: 'Node.js', tip: 'Backend sorcery loading...', level: 'Intermediate' },
 	{ name: 'Flask', tip: 'Python-powered potions.', level: 'Advanced' },
@@ -53,7 +53,7 @@ const Skills = () => {
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1, delay: 0.3 }}
 			>
-				"Magic is just technology we don't understand yet"
+				&quot;Magic is just technology we don&apos;t understand yet&quot;
 			</motion.p>		
 			<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center max-w-6xl mx-auto">
 				{skills.map((skill, i) => (

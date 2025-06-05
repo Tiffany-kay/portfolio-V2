@@ -28,7 +28,7 @@ const Contact = () => {
         </h2>        <p className={`max-w-lg mb-6 text-lg font-grotesk transition-colors duration-300 ${
           isDarkMode ? 'text-cyan-400' : 'text-emerald-600'
         }`}>
-          Need a pixel witch for your next spell? Whether it's a website, a collab, or just a vibe check — I'm one incantation away.
+          Need a pixel witch for your next spell? Whether it&apos;s a website, a collab, or just a vibe check &mdash; I&apos;m one incantation away.
         </p>
       </motion.div><motion.div
         initial={{ opacity: 0, scale: 0.8 }}

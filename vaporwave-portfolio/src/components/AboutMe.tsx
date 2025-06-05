@@ -30,11 +30,11 @@ const AboutMe = () => {
         transition={{ duration: 1 }}
       >
         Dynamic and driven tech sorceress with a passion for building stylish digital experiences.
-        I specialize in frontend development using React, TailwindCSS, and TypeScript—and I'm slowly mastering backend sorcery with Flask, Node, and Django.
+        I specialize in frontend development using React, TailwindCSS, and TypeScript&mdash;and I&apos;m slowly mastering backend sorcery with Flask, Node, and Django.
         <br /><br />
-        I've tutored beginners, built eCommerce platforms, and created IoT projects like Smart Waste Detection systems. Currently working on a Gen Z fashion app called Drip Check and obsessed with AI-driven design.
+        I&apos;ve tutored beginners, built eCommerce platforms, and created IoT projects like Smart Waste Detection systems. Currently working on a Gen Z fashion app called Drip Check and obsessed with AI-driven design.
         <br /><br />
-        Desperation isn't weakness. It's a spark. And I'm here to set the web ablaze.
+        Desperation isn&apos;t weakness. It&apos;s a spark. And I&apos;m here to set the web ablaze.
       </motion.p>
     </section>
   );

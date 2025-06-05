@@ -147,7 +147,7 @@ const Projects = () => {
 										isDarkMode ? 'text-pink-300' : 'text-emerald-500'
 									}`}
 								>
-									"{project.confession}"
+									&quot;{project.confession}&quot;
 								</p>
 								<div className="flex flex-wrap items-center gap-6 text-sm">
 									<motion.a
