@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fontsource/orbitron": "^5.2.5",
-    "@fontsource/space-grotesk": "^5.2.8",
-    "@fontsource/vt323": "^5.2.5",
     "framer-motion": "^12.16.0",
     "next": "^15.3.3",
     "react": "^18.3.1",
