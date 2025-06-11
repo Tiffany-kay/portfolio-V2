@@ -6,12 +6,12 @@ import { useTheme } from '@/contexts/ThemeContext';
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { isDarkMode } = useTheme();
-
   const navItems = [
     { name: 'Origin', href: '#hero' },
     { name: 'Lore', href: '#about' },
     { name: 'Spells', href: '#skills' },
     { name: 'Artifacts', href: '#projects' },
+    { name: 'Challenges', href: '#labs' },
     { name: 'Contact', href: '#contact' },
     { name: 'Log', href: '#blog' }
   ];
