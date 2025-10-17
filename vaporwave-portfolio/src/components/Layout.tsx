@@ -6,22 +6,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   
   return (
     <div className="relative min-h-screen font-spacegrotesk transition-colors duration-500">
-      {/* Background image layer */}
-      <div 
-        className="fixed inset-0 -z-20 bg-cover bg-center bg-no-repeat transition-all duration-500"
-        style={{
-          backgroundImage: 'url(/pnp.jpeg)',
-          filter: isDarkMode 
-            ? 'brightness(0.3) contrast(1.2) saturate(1.5)'
-            : 'brightness(0.8) contrast(1.1) saturate(1.2) hue-rotate(30deg)'
-        }}
-      />
-      
       {/* Main gradient background - theme aware */}
       <div className={`fixed inset-0 -z-10 animate-gradient transition-all duration-500 ${
         isDarkMode 
-          ? 'bg-gradient-to-br from-green-500/40 via-purple-500/50 via-green-400/30 to-blue-600/40'
-          : 'bg-gradient-to-br from-emerald-200/60 via-purple-200/70 via-pink-200/50 to-indigo-200/60'
+          ? 'bg-gradient-to-br from-green-500/40 via-purple-500/50 to-blue-600/40'
+          : 'bg-gradient-to-br from-emerald-200/60 via-purple-200/70 to-indigo-200/60'
       }`} />
       
       {/* Secondary gradient overlay - theme aware */}

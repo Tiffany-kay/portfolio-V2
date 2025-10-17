@@ -12,7 +12,7 @@ html {
 
 /* Dark mode (default) */
 body {
-  background: linear-gradient(135deg, #059669 0%, #7c3aed 30%, #0c0023 50%, #1a0033 70%, #059669 100%);
+  background: #000000;
   min-height: 100vh;
   font-family: 'Space Grotesk', sans-serif;
   cursor: crosshair;
